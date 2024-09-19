@@ -16,7 +16,7 @@ class AuthMiddleware
      *
      * @param  \Closure(\Illuminate\Http\Request): (\Symfony\Component\HttpFoundation\Response)  $next
      */
-    public function handle(Request $request, Closure $next)
+/*    public function handle(Request $request, Closure $next)
     {
         try {
             $user = JWTAuth::parseToken()->authenticate();
@@ -30,5 +30,5 @@ class AuthMiddleware
         }
 
         return $next($request);
-    }
+    }*/
 }
